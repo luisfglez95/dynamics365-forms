@@ -1,0 +1,85 @@
+/* Formuladios Dynamics */
+
+#form-dynamics th {
+  background-color: #fff!important;
+  border:0px!important;
+  padding:0px!important;
+  max-width: 100%!important;
+}
+
+#form-dynamics p {
+font-family:'Archivo', sans-serif;
+}
+
+#form-dynamics input {
+border-radius:5px;
+font-family: 'Archivo', sans-serif;
+padding:12px!important;
+background-color: #F5F8FA;
+border-color: #cbd6e2;
+}
+
+#form-dynamics select {
+border-radius:5px;
+font-family: 'Archivo', sans-serif;
+line-height:1.15;
+color:#757575;;
+padding:12px!important;
+background-color: #F5F8FA;
+border-color: #cbd6e2;
+}
+
+#form-dynamics .textFormFieldBlock textarea {
+border-radius:5px;
+font-family: 'Archivo', sans-serif;
+line-height:1.15;
+color:#757575;;
+padding:12px!important;
+background-color: #F5F8FA;
+border-color: #cbd6e2;
+}
+
+#form-dynamics .submitButtonWrapper {
+margin:0px!important;
+}
+
+#form-dynamics button{
+background-color: #40cea6;
+border-radius: 100px;
+padding: 10px 50px;
+font-family: 'Archivo', sans-serif;
+}
+
+#form-dynamics button:hover{
+background-color: #000;
+border-radius: 100px;
+padding: 10px 50px;
+}
+
+#form-dynamics a {
+color:#752A97!important;
+font-family: 'Archivo', sans-serif;
+}
+/* Flex Hidden Fields */
+
+#form-dynamics /*.textFormFieldBlock, .multiOptionSetFormFieldBlock, .block-label,*/ label {
+  display: flex;
+  flex-direction:row;
+}
+#form-dynamics .textFormFieldBlock, .dateTimeFormFieldBlock, .twoOptionFormFieldBlock, .optionSetFormFieldBlock, .multiOptionSetFormFieldBlock, .lookupFormFieldBlock {
+  padding: 5px!important;
+  gap: 5px!important;
+}
+
+#form-dynamics div[data-editorblocktype="SubmitButton"] {
+  padding:20px 0px 0px 0px!important;
+  display: flex!important;
+}
+
+#form-dynamics .notification-container {
+  margin:10px!important;
+}
+
+#form-dynamics table {
+margin-block-end: 0px;
+}

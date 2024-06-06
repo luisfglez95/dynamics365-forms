@@ -1,0 +1,151 @@
+#form-dynamics label {
+    color: #ffffff!important;
+    display: none!important;
+  }
+  
+  .textFormFieldBlock label *{
+    color:#ffffff!important;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+  }
+  
+  .textFormFieldBlock label {
+    color:#ffffff!important;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    min-height: 30px!important;
+  }
+  
+  .optionSetFormFieldBlock label.block-label {
+    color:#ffffff!important;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    min-height: 30px!important;
+  }
+  
+  #form-dynamics th {
+    background-color: transparent!important;
+    border:0px!important;
+    padding:0px!important;
+    max-width: 100%!important;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  #form-dynamics p {
+  font-family:'Poppins', sans-serif;
+  color:#fff;
+  }
+  
+  #form-dynamics input {
+  border-radius: 10px;
+  font-family: Poppins, sans-serif;
+  padding: 18px !important;
+  background-color: #ffffff20;
+  border-color: #cbd6e2;
+  border: none!important;
+  min-height: 45px;
+  color: #fff!important;
+  }
+  
+  #form-dynamics select {
+    border-radius: 10px;
+    font-family: Poppins, sans-serif;
+    padding: 18px !important;
+    background-color: #ffffff20;
+    border-color: #cbd6e2;
+    border: none!important;
+    min-height: 30px;
+    color:#ffffff80;
+  }
+  
+  #form-dynamics select option {
+    background-color: #fff!important;
+    color:#000!important;
+  }
+  
+  #form-dynamics .textFormFieldBlock textarea {
+    border-radius: 10px;
+    font-family: Poppins, sans-serif;
+    line-height: 1.15;
+    color: #ffffff!important;
+    padding: 18px !important;
+    background-color: #ffffff20;
+    border:none!important;
+  }
+  
+  #form-dynamics .textFormFieldBlock textarea ::placeholder {
+    color: #ffffff80;
+  }
+  
+  #form-dynamics .submitButtonWrapper {
+  margin:0px!important;
+  }
+  
+  #form-dynamics button{
+    background-color: #40cea6;
+    border-radius: 100px;
+    padding: 10px 50px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 15px 35px 15px 35px;
+    border-radius: 1000px;
+  }
+  
+  #form-dynamics button:hover{
+  background-color: #ffffff;
+  color: black;
+  border-radius: 100px;
+  font-family: "Poppins", sans-serif;
+  padding: 15px 35px 15px 35px;
+  transition: all;
+  transition-duration: 300ms;
+  transition: ease-in-out;
+  }
+  
+  #form-dynamics a {
+  color:#40cea6!important;
+  font-family: 'Poppins', sans-serif;
+  }
+  /* Flex Hidden Fields */
+  
+  #form-dynamics /*.textFormFieldBlock, .multiOptionSetFormFieldBlock, .block-label,*/ label {
+    display: flex;
+    flex-direction:row;
+  }
+  #form-dynamics .textFormFieldBlock, .dateTimeFormFieldBlock, .twoOptionFormFieldBlock, .optionSetFormFieldBlock, .multiOptionSetFormFieldBlock, .lookupFormFieldBlock {
+    padding: 10px!important;
+    gap: 5px!important;
+  }
+  
+  #form-dynamics div[data-editorblocktype="SubmitButton"] {
+    padding:20px 0px 0px 0px!important;
+    display: flex!important;
+  }
+  
+  #form-dynamics .notification-container {
+    margin:10px!important;
+  }
+  
+  #form-dynamics table {
+  margin-block-end: 0px;
+  }
+  
+  .twoOptionFormFieldBlock div.radiobuttons, .twoOptionFormFieldBlock div.twooption_checkbox, .optionSetFormFieldBlock div.radiobuttons, .multiOptionSetFormFieldBlock fieldset {
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 14px;
+    border: none;
+    display: flex;
+    flex-direction: row!important;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    flex: 2 1 0%;
+  }
+  
+  .textFormFieldBlock label, .dateTimeFormFieldBlock label, .lookupFormFieldBlock label, .twoOptionFormFieldBlock label.block-label, .optionSetFormFieldBlock label.block-label, .multiOptionSetFormFieldBlock label.block-label, div[data-editorblocktype="Captcha"] label[id^="wlspispHipInstructionContainer"], .textFormFieldBlock label *, .dateTimeFormFieldBlock label *, .lookupFormFieldBlock label *, .twoOptionFormFieldBlock label.block-label *, .optionSetFormFieldBlock label.block-label *, .multiOptionSetFormFieldBlock label.block-label *, .consentBlock label * {
+    font-family: 'Poppins', sans-serif!important;
+    color:#ffffff!important;
+    font-weight: 400;
+    min-height: 30px!important;
+  }
